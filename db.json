@@ -39,8 +39,23 @@
     { "id": 1, "fundoId": 1, "seasonId": 1, "category": "COSECHA", "amount": 5400.00, "date": "2026-05-01" }
   ],
   "inventories": [
-    { "id": 1, "name": "Fertilizante NPK", "unit": "Sacos", "minStock": 10, "location": "Almacén Principal", "expiration": "2027-01-01" }
+    { "id": 1,
+      "name": "Fertilizante Hzp",
+      "quantity": 120,
+      "unit": "kg.",
+      "minStock": 80,
+      "status":"AVAILABLE"
+    },
+    {
+      "id": 2,
+      "name": "Hidroxido de Dimetile",
+      "quantity": 120,
+      "unit": "Lt.",
+      "minStock": 80,
+      "status":"AVAILABLE"
+    }
   ],
+
   "suppliers": [
     { "id": 1, "name": "AgroInsumos S.A.", "contact": "Ventas: 999888777" }
   ],
