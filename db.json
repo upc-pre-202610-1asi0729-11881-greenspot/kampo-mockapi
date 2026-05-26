@@ -38,6 +38,14 @@
   "sales": [
     { "id": 1, "fundoId": 1, "seasonId": 1, "category": "COSECHA", "amount": 5400.00, "date": "2026-05-01" }
   ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "AgroInsumos S.A.",
+      "contact": "Ventas: 999888777",
+      "email": "agroinsumosSA@gmail.com"
+    }
+  ],
   "inventories": [
     { "id": 1,
       "name": "Fertilizante Hzp",
@@ -55,9 +63,21 @@
       "status":"AVAILABLE"
     }
   ],
-
-  "suppliers": [
-    { "id": 1, "name": "AgroInsumos S.A.", "contact": "Ventas: 999888777" }
+  "orders": [
+    {
+      "id": 1,
+      "inventoryId": 1,
+      "supplierId": 1,
+      "quantity": 120,
+      "status": "RECEIVED"
+    },
+    {
+      "id": 2,
+      "inventoryId": 2,
+      "supplierId": 1,
+      "quantity": 120,
+      "status": "RECEIVED"
+    }
   ],
   "alerts": [
     { "id": 1, "title": "Bajo nivel de humedad en Parcela A1", "severity": "HIGH" }
